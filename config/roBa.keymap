@@ -83,10 +83,10 @@
 &kp Q             &kp W         &kp E         &kp R                         &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                         &kp G        &msc (MOVE_X(-10))                 &kp SQT      &kp H        &kp J  &kp K      &kp L    &kp MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                         &kp B        &kp COLON                          &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 LS(GRAVE)  &lt 1 SPACE  &kp INT_MUHENKAN      &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LS(GRAVE)  &lt 1 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PG_UP) LC(PG_DN)>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         FUNCTION {
@@ -110,7 +110,7 @@
         ARROW {
             bindings = <
 &kp ESCAPE  &kp TAB       &kp HOME       &kp END        &kp PAGE_UP             &kp LC(Y)  &trans         &kp UP_ARROW  &trans          &trans
-&trans  &kp LC(S)  &trans  &kp LC(F)  &kp PAGE_DOWN  &trans      &trans     &trans         &kp LEFT_ARROW &kp DOWN_ARROW  &kp RIGHT_ARROW &trans
+&trans  &kp LC(S)  &trans  &kp LC(F)  &kp LG(LS(S))  &trans      &trans     &trans         &kp LEFT_ARROW &kp DOWN_ARROW  &kp RIGHT_ARROW &trans
 &kp LC(Z)   &kp LC(X)    &kp LC(C)      &kp LC(V)      &trans     &trans      &trans     &trans         &trans         &trans         &trans          &trans
 &trans      &trans       &trans         &trans         &trans     &trans      &trans     &trans                                       &trans
             >;
